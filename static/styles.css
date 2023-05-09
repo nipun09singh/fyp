@@ -1,0 +1,132 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #28527a;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+}
+
+.card {
+    width: 500px;
+    min-height: 300px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 400px;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #28527a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #447199;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #28527a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.card a:hover {
+    color: #447199;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-btn {
+    padding: 10px 20px;
+    background-color: #28527a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+    background-color: #447199;
+}
+
+label[for="bt_image"] {
+    padding: 10px 20px;
+    background-color: #28527a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+label[for="bt_image"]:hover {
+    background-color: #447199;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin-right: 20px;
+    border: 2px solid #28527a;
+    border-radius: 8px;
+}
+
+.image-info {
+    text-align: left;
+}

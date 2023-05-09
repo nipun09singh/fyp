@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Brain Tumor Classification</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Brain Tumor Classification</h1>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Upload an Image</h2>
+      <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="bt_image" class="upload-btn">Choose File</label>
+        <input type="file" name="file" id="bt_image">
+        <br><br>
+        <button type="submit">Predict</button>
+      </form>
+    </div>
+
+  </main>
+</body>
+
+</html>
